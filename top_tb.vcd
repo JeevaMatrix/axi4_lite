@@ -1,0 +1,384 @@
+$date
+	Wed Jul 30 19:58:01 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module top_tb $end
+$var wire 1 ! write_done $end
+$var wire 1 " read_done $end
+$var wire 32 # rdata_out [31:0] $end
+$var reg 32 $ addr [31:0] $end
+$var reg 1 % clk $end
+$var reg 1 & rd_en $end
+$var reg 1 ' reset $end
+$var reg 32 ( wdata_in [31:0] $end
+$var reg 1 ) wr_en $end
+$scope module DUT $end
+$var wire 32 * addr [31:0] $end
+$var wire 1 % clk $end
+$var wire 1 & rd_en $end
+$var wire 1 ' reset $end
+$var wire 32 + wdata_in [31:0] $end
+$var wire 1 ) wr_en $end
+$var wire 1 , wvalid $end
+$var wire 1 ! write_done $end
+$var wire 1 - wready $end
+$var wire 32 . wdata [31:0] $end
+$var wire 1 / rvalid $end
+$var wire 2 0 rresp [1:0] $end
+$var wire 1 1 rready $end
+$var wire 1 " read_done $end
+$var wire 32 2 rdata_out [31:0] $end
+$var wire 32 3 rdata [31:0] $end
+$var wire 1 4 bvalid $end
+$var wire 2 5 bresp [1:0] $end
+$var wire 1 6 bready $end
+$var wire 1 7 awvalid $end
+$var wire 1 8 awready $end
+$var wire 32 9 awaddr [31:0] $end
+$var wire 1 : arvalid $end
+$var wire 1 ; arready $end
+$var wire 32 < araddr [31:0] $end
+$scope module m $end
+$var wire 32 = addr [31:0] $end
+$var wire 1 % clk $end
+$var wire 1 & rd_en $end
+$var wire 1 ' reset $end
+$var wire 32 > wdata_in [31:0] $end
+$var wire 1 ) wr_en $end
+$var wire 1 - wready $end
+$var wire 1 / rvalid $end
+$var wire 2 ? rresp [1:0] $end
+$var wire 32 @ rdata [31:0] $end
+$var wire 1 4 bvalid $end
+$var wire 2 A bresp [1:0] $end
+$var wire 1 8 awready $end
+$var wire 1 ; arready $end
+$var parameter 2 B R_AR $end
+$var parameter 2 C R_DONE $end
+$var parameter 2 D R_IDLE $end
+$var parameter 2 E R_R $end
+$var parameter 3 F W_AW $end
+$var parameter 3 G W_B $end
+$var parameter 3 H W_DONE $end
+$var parameter 3 I W_IDLE $end
+$var parameter 3 J W_W $end
+$var reg 32 K araddr [31:0] $end
+$var reg 1 : arvalid $end
+$var reg 32 L awaddr [31:0] $end
+$var reg 1 7 awvalid $end
+$var reg 1 6 bready $end
+$var reg 2 M r_state [1:0] $end
+$var reg 32 N raddr_latch [31:0] $end
+$var reg 32 O rdata_out [31:0] $end
+$var reg 1 " read_done $end
+$var reg 1 1 rready $end
+$var reg 3 P w_state [2:0] $end
+$var reg 32 Q waddr_latch [31:0] $end
+$var reg 32 R wdata [31:0] $end
+$var reg 32 S wdata_latch [31:0] $end
+$var reg 1 ! write_done $end
+$var reg 1 , wvalid $end
+$upscope $end
+$scope module s $end
+$var wire 32 T araddr [31:0] $end
+$var wire 1 : arvalid $end
+$var wire 32 U awaddr [31:0] $end
+$var wire 1 7 awvalid $end
+$var wire 1 6 bready $end
+$var wire 1 % clk $end
+$var wire 1 ' reset $end
+$var wire 1 1 rready $end
+$var wire 32 V wdata [31:0] $end
+$var wire 1 , wvalid $end
+$var reg 1 W ar_handshake $end
+$var reg 5 X ar_index [4:0] $end
+$var reg 1 ; arready $end
+$var reg 1 Y aw_handshake $end
+$var reg 5 Z aw_index [4:0] $end
+$var reg 1 8 awready $end
+$var reg 2 [ bresp [1:0] $end
+$var reg 1 4 bvalid $end
+$var reg 32 \ rdata [31:0] $end
+$var reg 2 ] rresp [1:0] $end
+$var reg 1 / rvalid $end
+$var reg 1 ^ w_handshake $end
+$var reg 1 - wready $end
+$var integer 32 _ i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 J
+b0 I
+b100 H
+b11 G
+b1 F
+b10 E
+b0 D
+b11 C
+b1 B
+$end
+#0
+$dumpvars
+bx _
+x^
+bx ]
+bx \
+bx [
+bx Z
+xY
+bx X
+xW
+bx V
+bx U
+bx T
+bx S
+bx R
+bx Q
+bx P
+bx O
+bx N
+bx M
+bx L
+bx K
+bx A
+bx @
+bx ?
+b0 >
+b0 =
+bx <
+x;
+x:
+bx 9
+x8
+x7
+x6
+bx 5
+x4
+bx 3
+bx 2
+x1
+bx 0
+x/
+bx .
+x-
+x,
+b0 +
+b0 *
+0)
+b0 (
+1'
+0&
+0%
+b0 $
+bx #
+x"
+x!
+$end
+#5
+b0 N
+b0 S
+b0 Q
+b0 M
+b0 <
+b0 K
+b0 T
+0"
+01
+0:
+b0 P
+b0 .
+b0 R
+b0 V
+b0 9
+b0 L
+b0 U
+0!
+06
+0,
+07
+b0 0
+b0 ?
+b0 ]
+b0 3
+b0 @
+b0 \
+0/
+0W
+0;
+0^
+0Y
+b0 5
+b0 A
+b0 [
+04
+0-
+08
+b100000 _
+1%
+#10
+0%
+#15
+b100000 _
+1%
+#20
+0%
+0'
+#25
+1)
+b11001110111010110010000000000110 (
+b11001110111010110010000000000110 +
+b11001110111010110010000000000110 >
+b10000 $
+b10000 *
+b10000 =
+1%
+#30
+0%
+#35
+0)
+b1 P
+b11001110111010110010000000000110 S
+b10000 Q
+1%
+#40
+0%
+#45
+b10000 9
+b10000 L
+b10000 U
+17
+1%
+#50
+0%
+#55
+18
+1%
+#60
+0%
+#65
+b10 P
+07
+b100 Z
+1Y
+08
+1%
+#70
+0%
+#75
+b11001110111010110010000000000110 .
+b11001110111010110010000000000110 R
+b11001110111010110010000000000110 V
+1,
+1%
+#80
+0%
+#85
+1-
+1%
+#90
+0%
+#95
+1^
+0-
+b11 P
+16
+0,
+1%
+#100
+0%
+#105
+14
+1%
+#110
+0%
+#115
+0^
+0Y
+04
+b100 P
+06
+1%
+#120
+0%
+#125
+b0 P
+1!
+1%
+#130
+0%
+#135
+0!
+1&
+1%
+#140
+0%
+#145
+0&
+b1 M
+b10000 N
+1%
+#150
+0%
+#155
+1:
+b10000 <
+b10000 K
+b10000 T
+1%
+#160
+0%
+#165
+1;
+1%
+#170
+0%
+#175
+b100 X
+1W
+0;
+b10 M
+11
+0:
+1%
+#180
+0%
+#185
+1/
+b11001110111010110010000000000110 3
+b11001110111010110010000000000110 @
+b11001110111010110010000000000110 \
+1%
+#190
+0%
+#195
+0W
+0/
+b11 M
+01
+b11001110111010110010000000000110 #
+b11001110111010110010000000000110 2
+b11001110111010110010000000000110 O
+1%
+#200
+0%
+#205
+b0 M
+1"
+1%
+#210
+0%
+#215
+0"
+1%
+#220
+0%
+#225
+1%
